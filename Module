@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+void main()
+{
+	/*Напишіть програму, яка перевіряє число, введене з
+	клавіатури на парність*/
+	int digit;
+	cout << "Enter the digit: " << endl;
+	cin >> digit;
+	if (digit %2 ==0)
+	{
+		cout << "Yoy enter even number ";
+	}
+	else
+	{
+		cout << "Yoy enter not even number ";
+	}
+
+}
